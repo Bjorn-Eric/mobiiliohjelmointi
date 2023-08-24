@@ -2,6 +2,6 @@
 
 Laskin on yksinkertainen laskin, joka osaa laskea yhteen/erottaa kaksi lukua.
 
-## Kuvan kaappaukset
+## Demo
 
 ![Laskin](./images/tutorial.gif)

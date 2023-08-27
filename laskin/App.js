@@ -46,8 +46,12 @@ export default function App() {
             placeholder="Syötä nsumero"
         />
       <View style={styles.buttonContainer}>
-        <Button title="+" onPress={() => onCalculatePress("+")}/>
-        <Button title="-" onPress={ ()=> onCalculatePress("-")}/>
+          <View style={styles.button}>
+            <Button title="+" onPress={() => onCalculatePress("+")}/>
+          </View>
+          <View style={styles.button}>
+            <Button title="-" onPress={ ()=> onCalculatePress("-")}/>
+          </View>
       </View>
       <Button title={"Tyhjennä"} onPress={onClearPress}/>
       <StatusBar style="auto" />
@@ -62,7 +66,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  textInputCotainer: {
+  textInputContainer: {
     flex: 1,
     flexDirection: 'column',
   },
@@ -77,6 +81,11 @@ const styles = StyleSheet.create({
       flexDirection: 'row',
       justifyContent: 'space-around',
       width: 200,
+        marginVertical: 20,
+    },
+    button: {
+        width: 70,
+        height: 40,
     },
     answerText: {
         fontSize: 20,

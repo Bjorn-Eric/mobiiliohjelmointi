@@ -1,5 +1,5 @@
-# Laskin historialla
-Tämä sovellus on yksinkertainen laskin historialla.
+# Laskin navigoinnilla
+Tämä sovellus on yksinkertainen laskin, jossa pystyy navigoimaan laskimen historiaan.
 
 # Demo
 
